@@ -27,7 +27,7 @@ class Cricket_Player extends Player{
 
 class Hockey_Player extends Player{
 	public void show(){
-		System.out.println("football player method " ) ; 
+		System.out.println("hockey player method " ) ; 
 	}
 }
 
