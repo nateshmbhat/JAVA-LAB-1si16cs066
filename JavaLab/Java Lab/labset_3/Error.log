@@ -1,0 +1,7 @@
+Main.java:30: package sSystem does not exist
+		sSystem.out.println("football player method " ) ; 
+		       ^
+1 error
+Exception in thread "main" java.lang.NullPointerException
+	at Hockey_Player.show(Main.java:32)
+	at Main.main(Main.java:50)
