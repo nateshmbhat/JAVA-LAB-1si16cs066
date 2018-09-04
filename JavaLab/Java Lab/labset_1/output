@@ -1,11 +1,9 @@
-Script started on 2018-09-04 23:14:26+0530
-]0;natesh@falcon: ~/JAVA-LAB-1si16cs066/JavaLab/Java Lab/labset_1[01;32mnatesh@falcon[00m:[01;34m~/JAVA-LAB-1si16cs066/JavaLab/Java Lab/labset_1[00m$ ./a[K[K[Kjva[K[Kava Main 
 Enter length : 
 10
 Enter width : 
 20
 Enter color : 
-colo    red
+red 
 Enter length : 
 10
 Enter width : 
@@ -14,13 +12,13 @@ Enter color :
 orange
 
 Not mathing ... 
-]0;natesh@falcon: ~/JAVA-LAB-1si16cs066/JavaLab/Java Lab/labset_1[01;32mnatesh@falcon[00m:[01;34m~/JAVA-LAB-1si16cs066/JavaLab/Java Lab/labset_1[00m$ java Main 
+natesh@falcon:~/JAVA-LAB-1si16cs066/JavaLab/Java Lab/labset_1$ java Main 
 Enter length : 
 1
 Enter width : 
 2
 Enter color : 
-yell    red
+red 
 Enter length : 
 2
 Enter width : 
@@ -29,7 +27,7 @@ Enter color :
 red
 
 Matching ... 
-]0;natesh@falcon: ~/JAVA-LAB-1si16cs066/JavaLab/Java Lab/labset_1[01;32mnatesh@falcon[00m:[01;34m~/JAVA-LAB-1si16cs066/JavaLab/Java Lab/labset_1[00m$ exit
+natesh@falcon:~/JAVA-LAB-1si16cs066/JavaLab/Java Lab/labset_1$ exit
 exit
 
 Script done on 2018-09-04 23:14:56+0530
