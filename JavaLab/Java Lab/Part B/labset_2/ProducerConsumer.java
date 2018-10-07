@@ -4,30 +4,49 @@ class Item{
 	boolean valueSet = false ; 
 	int item = 0 ; 
 
-	public  void consume(){
-		while(!valueSet) ;
+	synchronized public void consume(){
+		while(!valueSet)
+		{
+			
+					try{
+						wait() ; 
+					}
+					catch(InterruptedException E){
+						;
+					}
+
+		}
 		System.out.println("Consumed : "  + item ) ; 
 		valueSet = false ;
+		notify();
 	}
 
-	public  void produce(int n ){
-		while(valueSet);
+	synchronized public void produce(int n ){
+		while(valueSet){
+			try{
+				wait() ; 
+			}
+			catch(InterruptedException E){
+				;
+			}
+		}
+
 		item = n ;
 		System.out.println("Produced : "  + item ) ; 
 		valueSet = true ;
+		notify() ; 
 	} 
 }
 
 class Producer implements Runnable{
- Item item ;
- Producer(Item itemobj){
- 	item = itemobj ; 
+	Item item ; 
+	Producer(Item itemobj){
+	item = itemobj ;
  }
 
  public void run(){
  	while(true){
- 		System.out.println("\nProducing ....") ; 
- 	item.produce((int)Math.random()*100) ; 
+ 	item.produce((int)(Math.random()*100)) ; 
  	}
  }
 
@@ -39,7 +58,6 @@ class Consumer implements Runnable{
 
 	public void run(){
 		while(true){
-			System.out.println("\nConsuming !") ;
 		item.consume() ; 
 			
 		}

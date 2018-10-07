@@ -1,0 +1,34 @@
+
+Starting thread 1 
+
+Starting thread 2 
+
+Starting thread 3 
+
+Starting thread 4 
+
+Starting thread 5 
+isAlive : true
+isAlive : true
+isAlive : true
+isAlive : true
+isAlive : true
+Thread three ending ... 
+Thread four ending ... 
+Thread five ending ... 
+Thread one ending ... 
+
+Thread two with priority : 10 is going to sleep
+thread one : 8 priority : 8
+thread two : 10 priority : 10
+thread three : 2 priority : 2
+thread four : 6 priority : 6
+thread five : 7 priority : 7
+thread one : 8 false
+thread two : 10 true
+thread three : 2 false
+thread four : 6 false
+thread five : 7 false
+Thread two ending ... 
+
+Long lasting thread is : two
