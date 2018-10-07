@@ -1,0 +1,31 @@
+Script started on Wednesday 05 September 2018 03:47:26 PM IST
+]0;user2018@rohini-Veriton-M200-H81: ~/Documents/NATESHMBHAT/JavaLab/Java Lab/labset_7user2018@rohini-Veriton-M200-H81:~/Documents/NATESHMBHAT/JavaLab/Java Lab/labset_7$ java Main 
+
+1.Enter direction for vehicle 1 (left / right) : 
+left
+
+1.Enter direction for vehicle 2 (left / right) : 
+left
+
+Valid directions .... 
+
+1.Enter direction for vehicle 1 (left / right) : 
+right
+
+1.Enter direction for vehicle 2 (left / right) : 
+right
+
+Valid directions .... 
+
+1.Enter direction for vehicle 1 (left / right) : 
+left  
+
+1.Enter direction for vehicle 2 (left / right) : 
+right
+Vehicles will collide ! 
+
+1.Enter direction for vehicle 1 (left / right) : 
+^C]0;user2018@rohini-Veriton-M200-H81: ~/Documents/NATESHMBHAT/JavaLab/Java Lab/labset_7user2018@rohini-Veriton-M200-H81:~/Documents/NATESHMBHAT/JavaLab/Java Lab/labset_7$ exit
+exit
+
+Script done on Wednesday 05 September 2018 03:47:46 PM IST

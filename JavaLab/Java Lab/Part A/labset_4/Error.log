@@ -1,0 +1,6 @@
+Main.java:26: possible loss of precision
+found   : double
+required: float
+		int i = 10 ; float f = 10.33 ; double d  = 10.2323 ;  
+		                       ^
+1 error
