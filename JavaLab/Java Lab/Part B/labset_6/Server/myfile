@@ -1,0 +1,6 @@
+myfile is the file that 
+i have created just to test some
+dummy tcp server.
+
+the client requests for the file by sending its name and the server
+responds
