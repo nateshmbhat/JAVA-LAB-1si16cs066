@@ -1,0 +1,19 @@
+command to login to mysql : 
+
+```
+mysql -u root -p
+```
+
+create database and table and insert data using 
+
+```
+create database dname ;
+create table Account ( username varchar(10) , password varchar(20) , email varchar(20)) ; 
+
+insert into Account( 'username' , 'securepass' , 'email@gmail.com' ) ; 
+
+```
+
+Go To the Java program and edit the database name and the table in the sql queries and execute :)
+
+
