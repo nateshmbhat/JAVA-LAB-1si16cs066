@@ -27,5 +27,4 @@ public class ContentServer{
 		socket.close() ; 
 
 		out.close() ; 
-		
 }
