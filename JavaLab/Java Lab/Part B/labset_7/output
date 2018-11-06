@@ -1,0 +1,18 @@
+
+Server Side
+
+asus:server$ javac CircleServer.java
+asus:server$ java CircleServer
+Server ready for connection
+Connection is successful and waiting for interaction
+Closing the socket
+
+------------------------------------------------------
+
+Client Side
+
+asus:client$ javac CircleClient.java
+asus:client$ java CircleClient
+Enter the radius : 4
+Area is 50.2656 units
+asus:client$

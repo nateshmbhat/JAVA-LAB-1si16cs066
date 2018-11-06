@@ -1,0 +1,18 @@
+Server Side
+
+asus:server$ javac ContentsServer.java
+asus:server$ java ContentsServer
+Server ready for connection
+Connection is successful and waiting for interaction
+asus:server$
+
+
+-------------------------------------------------------
+
+Client Side
+
+asus:client$ javac ContentsClient.java
+asus:client$ java ContentsClient
+Enter the file name : sample.txt
+Don’t feed the bats tonight.
+asus:client$
