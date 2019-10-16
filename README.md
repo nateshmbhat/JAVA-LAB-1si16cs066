@@ -1,2 +1,2 @@
-# JAVA-LAB-1si16cs066
-Java Lab stuff
+# JAVA-LAB-SIT
+Programs of Java Lab , SIT
